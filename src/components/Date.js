@@ -5,7 +5,7 @@ function Date(props) {
     
     return(
         <div className="date">
-
+            <h3>{data.date}</h3>
         </div>
     ) 
 }

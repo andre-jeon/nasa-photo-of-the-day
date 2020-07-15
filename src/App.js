@@ -24,11 +24,11 @@ function App() {
 
   return (
     <div className="App">
-
       {
-        <Main data = {data}/>
+        <Main data = {data} />
+        // <Date />
+        // <Explanation />
       }
-
     </div>
   );
 
