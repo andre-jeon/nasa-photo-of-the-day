@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import "./App.css";
 
-import Main from './components/main'
+import Main from './components/Main'
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
   
     .then(res => {
       setData(res.data)
-      console.log(res.data)
+      console.log(res)
     })
     .catch(err => {
       console.log(err)
