@@ -2,6 +2,7 @@ import React from 'react'
 
 function Date(props) {
     const data = props.data
+    // console.log(data)
     
     return(
         <div className="date">

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import "./App.css";
-
+import Date from './components/Date' 
 import Main from './components/Main'
+import Explanation from './components/Explanation'
 
 function App() {
 
@@ -24,11 +25,9 @@ function App() {
 
   return (
     <div className="App">
-      {
         <Main data = {data} />
-        // <Date />
-        // <Explanation />
-      }
+        <Date data = {data} />
+        <Explanation data = {data} />
     </div>
   );
 
